@@ -26,7 +26,7 @@ btn.forEach((buttons) => {
         }
 
         else if (buttons.textContent == "=") {
-            if (inputValue.value == "") {
+            if (inputValue.value == " ") {
                 inputValue.value = ""
             }
             else {
