@@ -67,8 +67,9 @@ body {
     cursor: pointer;
 }
 
-.btn:hover {
-    background-color: rgb(200, 205, 215);
+.btn:focus {
+    background-color: rgb(135, 153, 188);
+    box-shadow: inset 0px 0px 3px 1px rgb(17, 18, 18);
 }
 
 .orange {
